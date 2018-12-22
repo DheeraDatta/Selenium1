@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[string2]]>
+    </line>
+    <line>
+      <![CDATA[string3]]>
+    </line>
+    <line>
+      <![CDATA[string4]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81" started-at="2018-12-18T07:03:52Z" finished-at="2018-12-18T07:03:52Z">
+    <groups>
+      <group name="smoke">
+        <method signature="p2.script1()[pri:0, instance:testng.p2@4493d195]" name="script1" class="testng.p2"/>
+        <method signature="p2.script2()[pri:0, instance:testng.p2@4493d195]" name="script2" class="testng.p2"/>
+        <method signature="p2.script3()[pri:0, instance:testng.p2@4493d195]" name="script3" class="testng.p2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="81" started-at="2018-12-18T07:03:52Z" finished-at="2018-12-18T07:03:52Z">
+      <class name="testng.p2">
+        <test-method status="FAIL" signature="script1()[pri:0, instance:testng.p2@4493d195]" name="script1" duration-ms="13" started-at="2018-12-18T07:03:52Z" finished-at="2018-12-18T07:03:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testng.p2.script1(p2.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script1 -->
+        <test-method status="PASS" signature="script2()[pri:0, instance:testng.p2@4493d195]" name="script2" duration-ms="2" started-at="2018-12-18T07:03:52Z" finished-at="2018-12-18T07:03:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[string2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script2 -->
+        <test-method status="PASS" signature="script3()[pri:0, instance:testng.p2@4493d195]" name="script3" duration-ms="3" started-at="2018-12-18T07:03:52Z" finished-at="2018-12-18T07:03:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[string3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script3 -->
+        <test-method status="PASS" signature="script4()[pri:0, instance:testng.p2@4493d195]" name="script4" duration-ms="2" started-at="2018-12-18T07:03:52Z" finished-at="2018-12-18T07:03:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[string4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script4 -->
+      </class> <!-- testng.p2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
